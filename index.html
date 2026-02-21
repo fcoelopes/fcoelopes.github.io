@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francisco Edson | Engenharia de Dados & MLOps</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body class="bg-slate-950 text-slate-300 font-sans">
 
@@ -43,35 +45,36 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl hover:border-blue-500/50 transition">
                     <h3 class="text-blue-400 font-bold mb-4 italic">Infra & Cloud</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li>Docker & Kubernetes</li>
-                        <li>AWS EC2 & S3</li>
-                        <li>Terraform (IaC)</li>
-                    </ul>
+                    <div class="flex flex-wrap gap-4 text-2xl">
+                        <i class="devicon-docker-plain colored" title="Docker"></i>
+                        <i class="devicon-kubernetes-plain colored" title="Kubernetes"></i>
+                        <i class="devicon-amazonwebservices-plain-wordmark colored" title="AWS"></i>
+                        <i class="devicon-terraform-plain colored" title="Terraform"></i>
+                    </div>
                 </div>
                 <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl hover:border-blue-500/50 transition">
                     <h3 class="text-blue-400 font-bold mb-4 italic">Eng. de Dados</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li>SQL Avançado</li>
-                        <li>Apache Hop / Meltano</li>
-                        <li>Trino / Nessie / MinIO</li>
-                    </ul>
+                    <div class="flex flex-wrap gap-4 text-2xl text-slate-400">
+                        <i class="fas fa-database text-blue-500" title="SQL Avançado"></i>
+                        <i class="fas fa-filter text-orange-400" title="Apache Hop / Meltano"></i>
+                        <i class="fas fa-server text-blue-400" title="Trino / Nessie / MinIO"></i>
+                    </div>
                 </div>
                 <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl hover:border-blue-500/50 transition">
                     <h3 class="text-blue-400 font-bold mb-4 italic">Dev & MLOps</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li>Python</li>
-                        <li>Git / GitHub Actions</li>
-                        <li>API de Dados (Coinbase/yfinance)</li>
-                    </ul>
+                    <div class="flex flex-wrap gap-4 text-2xl">
+                        <i class="devicon-python-plain colored" title="Python"></i>
+                        <i class="devicon-github-original text-white" title="Git / GitHub Actions"></i>
+                        <i class="fas fa-code-branch text-green-500" title="API de Dados"></i>
+                    </div>
                 </div>
                 <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl hover:border-blue-500/50 transition">
                     <h3 class="text-blue-400 font-bold mb-4 italic">Industrial</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li>NR-13 Compliance</li>
-                        <li>Análise de Vibração</li>
-                        <li>Manutenção Preditiva</li>
-                    </ul>
+                    <div class="flex flex-wrap gap-4 text-2xl text-slate-400">
+                        <i class="fas fa-clipboard-check text-red-500" title="NR-13 Compliance"></i>
+                        <i class="fas fa-wave-square text-yellow-500" title="Análise de Vibração"></i>
+                        <i class="fas fa-tools text-slate-300" title="Manutenção Preditiva"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,7 +93,7 @@
                     <div class="flex gap-3">
                         <span class="text-xs text-slate-500">#SQL</span>
                         <span class="text-xs text-slate-500">#Python</span>
-                        <li>Data Warehouse</li>
+                        <span class="text-xs text-slate-500">#Data_Warehouse</span>
                     </div>
                 </div>
 
@@ -114,9 +117,9 @@
         <p class="text-sm text-slate-500">
             &copy; 2026 Francisco Edson Lopes. Todos os direitos reservados.
         </p>
-    </nav>
+    </footer>
 
-    <a href="https://wa.me/55XXXXXXXXXXX" target="_blank" class="fixed bottom-6 right-6 bg-green-600 text-white p-4 rounded-full shadow-2xl hover:bg-green-500 transition-all transform hover:scale-110 z-50 flex items-center justify-center">
+    <a href="https://wa.me/5585998705037" target="_blank" class="fixed bottom-6 right-6 bg-green-600 text-white p-4 rounded-full shadow-2xl hover:bg-green-500 transition-all transform hover:scale-110 z-50 flex items-center justify-center">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.703-1.277l-.337-.201-3.489.915.931-3.393-.22-.35a9.271 9.271 0 01-1.428-4.93c0-5.113 4.158-9.27 9.274-9.27a9.261 9.261 0 016.55 2.716 9.25 9.25 0 012.718 6.556c0 5.117-4.156 9.27-9.268 9.27m8.2-17.472A10.887 10.887 0 0012.029 1.1c-6.033 0-10.943 4.91-10.945 10.945 0 1.928.504 3.81 1.461 5.46L1.1 22.84l5.474-1.435a10.887 10.887 0 005.253 1.336h.004c6.034 0 10.944-4.91 10.947-10.945a10.835 10.835 0 00-3.071-7.737z"/>
         </svg>
@@ -124,4 +127,5 @@
 
 </body>
 </html>
+
 
